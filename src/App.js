@@ -1,28 +1,26 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Card from './components/Card';
+let cards = [{ alt: 'Test', src: 'Test.jpg', clicked: false }];
 
 class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
-    );
-  }
+    constructor() {
+        super();
+        this.state = { cards }
+    }
+
+    handleClick = id => {
+        this.setState(prevState => {
+
+        });
+    }
+
+    render() {
+        return (
+            <div>
+                {cards.map()}
+            </div>
+        )
+    }
 }
 
 export default App;
