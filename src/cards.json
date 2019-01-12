@@ -1,0 +1,14 @@
+[
+    {
+        "id": 0,
+        "alt": "Test",
+        "src": "Test.jpg",
+        "clicked": false
+    },
+    {
+        "id": 1,
+        "alt": "Test2",
+        "src": "Test2.jpg",
+        "clicked": false
+    }
+]
