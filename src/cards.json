@@ -1,14 +1,64 @@
 [
     {
         "id": 0,
-        "alt": "Test",
-        "src": "Test.jpg",
-        "clicked": false
+        "alt": "Neo",
+        "src": "/images/Neo.jpg"
     },
     {
         "id": 1,
-        "alt": "Test2",
-        "src": "Test2.jpg",
-        "clicked": false
+        "alt": "Trinity",
+        "src": "/images/Trinity.jpg"
+    },
+    {
+        "id": 2,
+        "alt": "Morpheus",
+        "src": "/images/Morpheus.jpg"
+    },
+    {
+        "id": 3,
+        "alt": "Agent Smith",
+        "src": "/images/Smith.jpg"
+    }
+    ,
+    {
+        "id": 4,
+        "alt": "Tank",
+        "src": "/images/Tank.jpg"
+    },
+    {
+        "id": 5,
+        "alt": "Twins",
+        "src": "/images/Twins.jpg"
+    },
+    {
+        "id": 6,
+        "alt": "Cypher",
+        "src": "/images/Cypher.jpg"
+    },
+    {
+        "id": 7,
+        "alt": "Oracle",
+        "src": "/images/Oracle.jpg"
+    },
+    {
+        "id": 8,
+        "alt": "Merovingian",
+        "src": "/images/Merovingian.jpg"
+    }
+    ,
+    {
+        "id": 9,
+        "alt": "Switch",
+        "src": "/images/Switch.jpg"
+    },
+    {
+        "id": 10,
+        "alt": "Architect",
+        "src": "/images/Architect.jpg"
+    },
+    {
+        "id": 11,
+        "alt": "Seraph",
+        "src": "/images/Seraph.jpg"
     }
 ]
