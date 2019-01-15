@@ -30,12 +30,15 @@ class App extends Component {
                 }
                 return obj;
             }),
-            score: this.state.score + 1,
+            score: alreadyClicked ? this.state.score : this.state.score + 1,
+            topScore: alreadyClicked ? Math.max(this.state.score, this.state.topScore) : Math.max(this.state.score + 1, this.state.topScore),
             correct: !alreadyClicked
+        }, () => {
+            if (alreadyClicked) {
+                this.restart();
+            }
         });
-        if (alreadyClicked) {
-            this.restart();
-        }
+        
         this.shuffle();
     }
 
@@ -46,7 +49,6 @@ class App extends Component {
                 return obj;
             }),
             score: 0,
-            topScore: Math.max(this.state.score, this.state.topScore)
         })
     }
 
@@ -68,11 +70,11 @@ class App extends Component {
 
     shuffle() {
         let newArray = [];
-        let oldArray = JSON.parse(JSON.stringify(this.state.cards));
+        let oldArray = this.state.cards.slice(0);
         for(let i = oldArray.length - 1; i >= 0; i--) {
             newArray.push(oldArray.splice(Math.floor(Math.random() * oldArray.length), 1)[0]);
         }
-        
+
         this.setState({
             cards: newArray
         })
