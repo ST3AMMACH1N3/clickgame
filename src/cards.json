@@ -2,63 +2,63 @@
     {
         "id": 0,
         "alt": "Neo",
-        "src": "/images/Neo.jpg"
+        "src": "./images/Neo.jpg"
     },
     {
         "id": 1,
         "alt": "Trinity",
-        "src": "/images/Trinity.jpg"
+        "src": "./images/Trinity.jpg"
     },
     {
         "id": 2,
         "alt": "Morpheus",
-        "src": "/images/Morpheus.jpg"
+        "src": "./images/Morpheus.jpg"
     },
     {
         "id": 3,
         "alt": "Agent Smith",
-        "src": "/images/Smith.jpg"
+        "src": "./images/Smith.jpg"
     }
     ,
     {
         "id": 4,
         "alt": "Tank",
-        "src": "/images/Tank.jpg"
+        "src": "./images/Tank.jpg"
     },
     {
         "id": 5,
         "alt": "Twins",
-        "src": "/images/Twins.jpg"
+        "src": "./images/Twins.jpg"
     },
     {
         "id": 6,
         "alt": "Cypher",
-        "src": "/images/Cypher.jpg"
+        "src": "./images/Cypher.jpg"
     },
     {
         "id": 7,
         "alt": "Oracle",
-        "src": "/images/Oracle.jpg"
+        "src": "./images/Oracle.jpg"
     },
     {
         "id": 8,
         "alt": "Merovingian",
-        "src": "/images/Merovingian.jpg"
+        "src": "./images/Merovingian.jpg"
     }
     ,
     {
         "id": 9,
         "alt": "Switch",
-        "src": "/images/Switch.jpg"
+        "src": "./images/Switch.jpg"
     },
     {
         "id": 10,
         "alt": "Architect",
-        "src": "/images/Architect.jpg"
+        "src": "./images/Architect.jpg"
     },
     {
         "id": 11,
         "alt": "Seraph",
-        "src": "/images/Seraph.jpg"
+        "src": "./images/Seraph.jpg"
     }
 ]
