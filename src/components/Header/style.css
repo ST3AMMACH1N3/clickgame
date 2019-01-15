@@ -1,14 +1,10 @@
 .container {
-    /* display: block; */
     position: fixed;
-    /* border-bottom: 1px solid #0f0; */
     background: #000;
     color: #00ff00aa;
-    /* height: 50px; */
     line-height: 30px;
     padding: 10px;
     overflow: hidden;
-    /* margin-top: 100px; */
     box-shadow: 0px 0px 15px 1px #0f0;
     width: 100%;
     text-align: center;
@@ -23,12 +19,27 @@
 
 .scoreDisplay {
     position: relative;
-    /* display: inline-block; */
     float: right;
 }
 
 .title {
     position: relative;
-    /* display: inline-block; */
     float: left;
+}
+
+@media only screen and (max-width: 1080px) {
+    .message {
+        display: block;
+    }
+
+    .scoreDisplay {
+        display: block;
+        float: none;
+    }
+
+    .title {
+        display: block;
+        float: none;
+    }
+
 }
