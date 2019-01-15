@@ -67,15 +67,14 @@ class App extends Component {
     }
 
     shuffle() {
-        let temp = [];
-        while (temp.length < this.state.cards.length) {
-            let index = Math.floor(Math.random() * this.state.cards.length);
-            if (!temp.includes(this.state.cards[index])) {
-                temp.push(this.state.cards[index])
-            }
+        let newArray = [];
+        let oldArray = JSON.parse(JSON.stringify(this.state.cards));
+        for(let i = oldArray.length - 1; i >= 0; i--) {
+            newArray.push(oldArray.splice(Math.floor(Math.random() * oldArray.length), 1)[0]);
         }
+        
         this.setState({
-            cards: temp
+            cards: newArray
         })
     }
 }
